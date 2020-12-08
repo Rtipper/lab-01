@@ -1,6 +1,95 @@
-body, html {
-  height: 100%;
-  margin:0;
-  padding:0;
-  width: 100%;
+/* Mobile */
+
+body {
+  max-width: 767px;
+  width: 480px;
+  min-width: 480px;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.793);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#a {
+  background-color: rgba(224, 12, 12, 0.685);
+}
+
+#b {
+  background-color: rgba(231, 101, 14, 0.685);
+}
+
+#c {
+  background-color: rgb(243, 170, 13,  0.685);
+}
+
+#d {
+  background-color: rgb(96, 236, 14, 0.685);
+}
+
+#e {
+  background-color: rgba(13, 220, 235, 0.685);
+}
+
+#f {
+  background-color: rgba(36, 13, 245, 0.685);
+}
+
+#g {
+  background-color: rgba(187, 11, 241, 0.685);
+}
+
+#h {
+  background-color: rgba(243, 10, 193, 0.685);
+}
+
+#i {
+  background-color: rgba(235, 12, 60, 0.685);
+}
+
+/* Desktop */
+@media (min-width: 767px){
+  
+  body {
+    min-width: 960px;
+    margin: auto;
+    color: rgb(44, 44, 44);
+  }
+
+  #a {
+    background-color: rgba(27, 27, 27, 0.685);
+  }
+  
+  #b {
+    background-color: rgba(56, 56, 56, 0.685);
+  }
+  
+  #c {
+    background-color: rgba(78, 78, 78, 0.685);
+  }
+  
+  #d {
+    background-color: rgba(107, 107, 107, 0.685);
+  }
+  
+  #e {
+    background-color: rgba(128, 128, 128, 0.685);
+  }
+  
+  #f {
+    background-color: rgba(151, 151, 151, 0.685);
+  }
+  
+  #g {
+    background-color: rgba(182, 182, 182, 0.685);
+  }
+  
+  #h {
+    background-color: rgba(209, 209, 209, 0.685);
+  }
+  
+  #i {
+    background-color: rgba(231, 231, 231, 0.685);
+  }
 }
