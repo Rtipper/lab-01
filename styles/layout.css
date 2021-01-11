@@ -70,8 +70,41 @@ main {
   text-align: center;
 }
 
+/* TABLET */
+@media (min-width: 768px){
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #containerA {
+    display:flex;
+  }
+
+  #a {
+    margin-top: 30px;
+    height: 100px;
+    width: 680px;
+  }
+
+  #containerB {
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  #b {
+    width: 200px;
+    height: 835px;
+    order: 2;
+  }
+
+}
+
 /* Desktop */
-@media (min-width: 767px){
+@media (min-width: 1025px){
   
   
   main {
